@@ -26,15 +26,15 @@ Here are my current thoughts on a roadmap for our overall engineering organziati
 
 * Landing Page ReDesign
 
-* Introduce a drop-down item for the navbar.
+* Discuss moving shared components into UI Lib via NPM
 
 * Re-think and redo hero banner implementation
 
-* Make sure that all UI components have Jest snapshot tests and Storybook instances
-
 * Document how to add a Jest test and a Storybook instance of a component
 
-* Discuss moving shared components into UI Lib via NPM
+* Make sure that all UI components have Jest snapshot tests and Storybook instances
+
+* Introduce a drop-down item for the navbar.
 
 ## Backend
 
@@ -44,9 +44,9 @@ Here are my current thoughts on a roadmap for our overall engineering organziati
 
 * Set up new Code Climate account - this will help give us insight into the health of our codebase, and ensure we are using best practices and keeping it beginner friendly!
 
-* Implement roles/permissions for end users
-
 * Implement an authentication strategy/option to secure and expose the API (for non-signed in user consumers, i.e. Slack, apps, etc.)
+
+* Implement roles/permissions for end users
 
 ## Infrastructure
 
